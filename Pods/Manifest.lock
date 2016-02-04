@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Lockbox (2.1.0)
+  - WeakEvent (0.1.1)
+  - WeakTimer (0.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - Lockbox (~> 2.1)
+  - WeakEvent (~> 0.1)
+  - WeakTimer (~> 0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Lockbox: 16442da35d9d4286966936763be728a931d589c3
+  WeakEvent: e605438faa65af40b72ea437f34a9039378e9685
+  WeakTimer: efa333a947a83bf5e354da676e2cd7242de8a1b8
+
+COCOAPODS: 0.39.0

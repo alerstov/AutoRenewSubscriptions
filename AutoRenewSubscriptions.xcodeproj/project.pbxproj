@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		811D45700EAE28687D9F9305 /* libPods-AutoRenewSubscriptions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C26660A8FDDDBCFC12BC9BC /* libPods-AutoRenewSubscriptions.a */; };
+		D695892F1C609BF90092259F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D695892E1C609BF90092259F /* main.m */; };
+		D69589321C609BF90092259F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D69589311C609BF90092259F /* AppDelegate.m */; };
+		D69589351C609BF90092259F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D69589341C609BF90092259F /* ViewController.m */; };
+		D69589381C609BF90092259F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69589361C609BF90092259F /* Main.storyboard */; };
+		D695893A1C609BF90092259F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69589391C609BF90092259F /* Assets.xcassets */; };
+		D695893D1C609BF90092259F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D695893B1C609BF90092259F /* LaunchScreen.storyboard */; };
+		D69589471C609E7C0092259F /* InAppReceiptVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = D69589461C609E7C0092259F /* InAppReceiptVerifier.m */; };
+		D695894D1C609F9A0092259F /* NSObject+KeychainProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D695894C1C609F9A0092259F /* NSObject+KeychainProperty.m */; };
+		D69589501C60A0CB0092259F /* InAppProductRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = D695894F1C60A0CB0092259F /* InAppProductRequester.m */; };
+		D69589531C60A4590092259F /* InAppPaymentQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D69589521C60A4590092259F /* InAppPaymentQueue.m */; };
+		D69589561C60A5620092259F /* InAppSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = D69589551C60A5620092259F /* InAppSubscription.m */; };
+		D69589591C60E5410092259F /* InAppPaymentVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = D69589581C60E5410092259F /* InAppPaymentVerifier.m */; };
+		D695895C1C60F0220092259F /* InAppDateChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = D695895B1C60F0220092259F /* InAppDateChecker.m */; };
+		D69589611C61DFA10092259F /* InAppExpirationChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = D69589601C61DFA10092259F /* InAppExpirationChecker.m */; };
+		D69589641C61E79B0092259F /* InAppSubscriptionState.m in Sources */ = {isa = PBXBuildFile; fileRef = D69589631C61E79B0092259F /* InAppSubscriptionState.m */; };
+		D695896A1C61F7FA0092259F /* InAppSubscriptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D69589691C61F7FA0092259F /* InAppSubscriptionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C26660A8FDDDBCFC12BC9BC /* libPods-AutoRenewSubscriptions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoRenewSubscriptions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FA56A0F503E3E70F731930 /* Pods-AutoRenewSubscriptions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRenewSubscriptions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRenewSubscriptions/Pods-AutoRenewSubscriptions.debug.xcconfig"; sourceTree = "<group>"; };
+		64364C0D7B7ABE9C342216C5 /* Pods-AutoRenewSubscriptions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoRenewSubscriptions.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoRenewSubscriptions/Pods-AutoRenewSubscriptions.release.xcconfig"; sourceTree = "<group>"; };
+		D695892A1C609BF90092259F /* AutoRenewSubscriptions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoRenewSubscriptions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D695892E1C609BF90092259F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D69589301C609BF90092259F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D69589311C609BF90092259F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D69589331C609BF90092259F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D69589341C609BF90092259F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D69589371C609BF90092259F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D69589391C609BF90092259F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D695893C1C609BF90092259F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D695893E1C609BF90092259F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69589451C609E7C0092259F /* InAppReceiptVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppReceiptVerifier.h; sourceTree = "<group>"; };
+		D69589461C609E7C0092259F /* InAppReceiptVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppReceiptVerifier.m; sourceTree = "<group>"; };
+		D695894B1C609F9A0092259F /* NSObject+KeychainProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KeychainProperty.h"; sourceTree = "<group>"; };
+		D695894C1C609F9A0092259F /* NSObject+KeychainProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KeychainProperty.m"; sourceTree = "<group>"; };
+		D695894E1C60A0CB0092259F /* InAppProductRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppProductRequester.h; sourceTree = "<group>"; };
+		D695894F1C60A0CB0092259F /* InAppProductRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppProductRequester.m; sourceTree = "<group>"; };
+		D69589511C60A4590092259F /* InAppPaymentQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPaymentQueue.h; sourceTree = "<group>"; };
+		D69589521C60A4590092259F /* InAppPaymentQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPaymentQueue.m; sourceTree = "<group>"; };
+		D69589541C60A5620092259F /* InAppSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppSubscription.h; sourceTree = "<group>"; };
+		D69589551C60A5620092259F /* InAppSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppSubscription.m; sourceTree = "<group>"; };
+		D69589571C60E5410092259F /* InAppPaymentVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPaymentVerifier.h; sourceTree = "<group>"; };
+		D69589581C60E5410092259F /* InAppPaymentVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPaymentVerifier.m; sourceTree = "<group>"; };
+		D695895A1C60F0220092259F /* InAppDateChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppDateChecker.h; sourceTree = "<group>"; };
+		D695895B1C60F0220092259F /* InAppDateChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppDateChecker.m; sourceTree = "<group>"; };
+		D695895F1C61DFA10092259F /* InAppExpirationChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppExpirationChecker.h; sourceTree = "<group>"; };
+		D69589601C61DFA10092259F /* InAppExpirationChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppExpirationChecker.m; sourceTree = "<group>"; };
+		D69589621C61E79B0092259F /* InAppSubscriptionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppSubscriptionState.h; sourceTree = "<group>"; };
+		D69589631C61E79B0092259F /* InAppSubscriptionState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppSubscriptionState.m; sourceTree = "<group>"; };
+		D69589681C61F7FA0092259F /* InAppSubscriptionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppSubscriptionManager.h; sourceTree = "<group>"; };
+		D69589691C61F7FA0092259F /* InAppSubscriptionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppSubscriptionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69589271C609BF90092259F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811D45700EAE28687D9F9305 /* libPods-AutoRenewSubscriptions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69589211C609BF90092259F = {
+			isa = PBXGroup;
+			children = (
+				D695892C1C609BF90092259F /* AutoRenewSubscriptions */,
+				D695892B1C609BF90092259F /* Products */,
+				EBCAB315DF74046365E4AD88 /* Pods */,
+				FFCEDCA6EEEB10AA89B0C14F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D695892B1C609BF90092259F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D695892A1C609BF90092259F /* AutoRenewSubscriptions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D695892C1C609BF90092259F /* AutoRenewSubscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				D69589441C609D8C0092259F /* InAppPurchase */,
+				D69589681C61F7FA0092259F /* InAppSubscriptionManager.h */,
+				D69589691C61F7FA0092259F /* InAppSubscriptionManager.m */,
+				D69589301C609BF90092259F /* AppDelegate.h */,
+				D69589311C609BF90092259F /* AppDelegate.m */,
+				D69589331C609BF90092259F /* ViewController.h */,
+				D69589341C609BF90092259F /* ViewController.m */,
+				D69589361C609BF90092259F /* Main.storyboard */,
+				D69589391C609BF90092259F /* Assets.xcassets */,
+				D695893B1C609BF90092259F /* LaunchScreen.storyboard */,
+				D695893E1C609BF90092259F /* Info.plist */,
+				D695892D1C609BF90092259F /* Supporting Files */,
+			);
+			path = AutoRenewSubscriptions;
+			sourceTree = "<group>";
+		};
+		D695892D1C609BF90092259F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D695892E1C609BF90092259F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D69589441C609D8C0092259F /* InAppPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				D69589651C61ECB00092259F /* Subscription */,
+				D695895E1C60F3650092259F /* Common */,
+				D695895D1C60F35D0092259F /* Base */,
+			);
+			name = InAppPurchase;
+			sourceTree = "<group>";
+		};
+		D695895D1C60F35D0092259F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D69589511C60A4590092259F /* InAppPaymentQueue.h */,
+				D69589521C60A4590092259F /* InAppPaymentQueue.m */,
+				D695894E1C60A0CB0092259F /* InAppProductRequester.h */,
+				D695894F1C60A0CB0092259F /* InAppProductRequester.m */,
+				D69589451C609E7C0092259F /* InAppReceiptVerifier.h */,
+				D69589461C609E7C0092259F /* InAppReceiptVerifier.m */,
+				D695894B1C609F9A0092259F /* NSObject+KeychainProperty.h */,
+				D695894C1C609F9A0092259F /* NSObject+KeychainProperty.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		D695895E1C60F3650092259F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D695895A1C60F0220092259F /* InAppDateChecker.h */,
+				D695895B1C60F0220092259F /* InAppDateChecker.m */,
+				D69589571C60E5410092259F /* InAppPaymentVerifier.h */,
+				D69589581C60E5410092259F /* InAppPaymentVerifier.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D69589651C61ECB00092259F /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				D69589541C60A5620092259F /* InAppSubscription.h */,
+				D69589551C60A5620092259F /* InAppSubscription.m */,
+				D695895F1C61DFA10092259F /* InAppExpirationChecker.h */,
+				D69589601C61DFA10092259F /* InAppExpirationChecker.m */,
+				D69589621C61E79B0092259F /* InAppSubscriptionState.h */,
+				D69589631C61E79B0092259F /* InAppSubscriptionState.m */,
+			);
+			name = Subscription;
+			sourceTree = "<group>";
+		};
+		EBCAB315DF74046365E4AD88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59FA56A0F503E3E70F731930 /* Pods-AutoRenewSubscriptions.debug.xcconfig */,
+				64364C0D7B7ABE9C342216C5 /* Pods-AutoRenewSubscriptions.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFCEDCA6EEEB10AA89B0C14F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C26660A8FDDDBCFC12BC9BC /* libPods-AutoRenewSubscriptions.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69589291C609BF90092259F /* AutoRenewSubscriptions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69589411C609BF90092259F /* Build configuration list for PBXNativeTarget "AutoRenewSubscriptions" */;
+			buildPhases = (
+				6C5FFF65D18C364B5E3F1688 /* Check Pods Manifest.lock */,
+				D69589261C609BF90092259F /* Sources */,
+				D69589271C609BF90092259F /* Frameworks */,
+				D69589281C609BF90092259F /* Resources */,
+				85478CFFB7B7F8FB6DCF6050 /* Embed Pods Frameworks */,
+				109C0237B396EB1A7A00DBFA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoRenewSubscriptions;
+			productName = AutoRenewSubscriptions;
+			productReference = D695892A1C609BF90092259F /* AutoRenewSubscriptions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69589221C609BF90092259F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexander Stepanov";
+				TargetAttributes = {
+					D69589291C609BF90092259F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D69589251C609BF90092259F /* Build configuration list for PBXProject "AutoRenewSubscriptions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69589211C609BF90092259F;
+			productRefGroup = D695892B1C609BF90092259F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69589291C609BF90092259F /* AutoRenewSubscriptions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69589281C609BF90092259F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D695893D1C609BF90092259F /* LaunchScreen.storyboard in Resources */,
+				D695893A1C609BF90092259F /* Assets.xcassets in Resources */,
+				D69589381C609BF90092259F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109C0237B396EB1A7A00DBFA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoRenewSubscriptions/Pods-AutoRenewSubscriptions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C5FFF65D18C364B5E3F1688 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85478CFFB7B7F8FB6DCF6050 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoRenewSubscriptions/Pods-AutoRenewSubscriptions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69589261C609BF90092259F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D695894D1C609F9A0092259F /* NSObject+KeychainProperty.m in Sources */,
+				D69589351C609BF90092259F /* ViewController.m in Sources */,
+				D69589471C609E7C0092259F /* InAppReceiptVerifier.m in Sources */,
+				D69589561C60A5620092259F /* InAppSubscription.m in Sources */,
+				D69589501C60A0CB0092259F /* InAppProductRequester.m in Sources */,
+				D69589641C61E79B0092259F /* InAppSubscriptionState.m in Sources */,
+				D69589321C609BF90092259F /* AppDelegate.m in Sources */,
+				D69589531C60A4590092259F /* InAppPaymentQueue.m in Sources */,
+				D69589611C61DFA10092259F /* InAppExpirationChecker.m in Sources */,
+				D69589591C60E5410092259F /* InAppPaymentVerifier.m in Sources */,
+				D695896A1C61F7FA0092259F /* InAppSubscriptionManager.m in Sources */,
+				D695895C1C60F0220092259F /* InAppDateChecker.m in Sources */,
+				D695892F1C609BF90092259F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D69589361C609BF90092259F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69589371C609BF90092259F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D695893B1C609BF90092259F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D695893C1C609BF90092259F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D695893F1C609BF90092259F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D69589401C609BF90092259F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69589421C609BF90092259F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59FA56A0F503E3E70F731930 /* Pods-AutoRenewSubscriptions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoRenewSubscriptions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gtfgtr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D69589431C609BF90092259F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64364C0D7B7ABE9C342216C5 /* Pods-AutoRenewSubscriptions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoRenewSubscriptions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gtfgtr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69589251C609BF90092259F /* Build configuration list for PBXProject "AutoRenewSubscriptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D695893F1C609BF90092259F /* Debug */,
+				D69589401C609BF90092259F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69589411C609BF90092259F /* Build configuration list for PBXNativeTarget "AutoRenewSubscriptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69589421C609BF90092259F /* Debug */,
+				D69589431C609BF90092259F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69589221C609BF90092259F /* Project object */;
+}
